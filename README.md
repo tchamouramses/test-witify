@@ -60,8 +60,8 @@ npm run format               # Prettier
 
 ### Fonctionnement
 
-- Depuis une commande, l'utilisateur peut choisir une ligne, un entrepôt et une quantité à réserver.
-- Une nouvelle réservation complète la réservation existante lorsqu'elle concerne la même ligne de commande et le même entrepôt.
+- Depuis une commande, l'utilisateur peut choisir une ligne, un entrepôt et saisir une quantité à réserver.
+- Une nouvelle réservation complète la réservation existante lorsqu'elle concerne la même ligne de commande.
 - La quantité demandée ne peut pas dépasser le stock disponible ni la quantité restant à réserver sur la commande.
 - Une réservation ne retire pas physiquement le stock. Elle réduit uniquement la quantité encore disponible pour les autres commandes.
 - Le stock affiché dans l'inventaire et dans le formulaire d'ajustement est calculé à partir de l'historique des mouvements.
@@ -83,7 +83,7 @@ npm run format               # Prettier
 - Ajouter des rôles et permissions différents pour la consultation, la réservation et l'ajustement du stock.
 - Permettre de libérer, annuler ou déplacer une réservation vers un autre entrepôt.
 - Ajouter d'autres états de commande et définir clairement leurs règles de transition.
-- Ajouter une vérification automatique de la cohérence du stock et des alertes en cas d'écart.
-- Compléter les tests actuels avec des tests dans un navigateur et des tests de charge.
+- Ajouter un veritable dashboard avec probablement des rappels 
+- Ajouter des champs de filtre et recherche sur les Orders, Inventories, Warehouses et dans le details d'une commande pour fluidifier l'experience utilisateur. 
 
 La fonctionnalité demandée est complète dans le périmètre actuel. Le principal ajout souhaitable serait un test automatisé avec plusieurs réservations exécutées exactement au même moment.
