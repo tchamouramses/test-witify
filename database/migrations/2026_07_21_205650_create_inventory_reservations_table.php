@@ -19,6 +19,7 @@ return new class extends Migration
             $table->timestamps();
 
             $table->unique(['order_line_id', 'warehouse_id']);
+            $table->index(['warehouse_id', 'order_line_id']);
         });
     }
 
