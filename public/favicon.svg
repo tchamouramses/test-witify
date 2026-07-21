@@ -1,0 +1,12 @@
+<svg width="166" height="166" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="linvara-gradient" x1="7" y1="5" x2="41" y2="43" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#4F46E5"/>
+            <stop offset="1" stop-color="#0D9488"/>
+        </linearGradient>
+    </defs>
+    <path d="M12 3H36C40.9706 3 45 7.02944 45 12V36C45 40.9706 40.9706 45 36 45H12C7.02944 45 3 40.9706 3 36V12C3 7.02944 7.02944 3 12 3Z" fill="url(#linvara-gradient)"/>
+    <path d="M13.5 16.75L24 10.75L34.5 16.75V31.25L24 37.25L13.5 31.25V16.75Z" stroke="white" stroke-width="2.2" stroke-linejoin="round"/>
+    <path d="M13.5 16.75L24 22.75L34.5 16.75M24 22.75V37.25" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" opacity="0.72"/>
+    <path d="M17.75 27.25L21.25 30.75L30 20.75" stroke="white" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
